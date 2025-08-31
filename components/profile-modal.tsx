@@ -55,7 +55,10 @@ export function ProfileModal({ isOpen, onClose }: ProfileModalProps) {
           {/* Profile Photo & Name */}
           <div className="text-center space-y-4">
             <Avatar className="w-24 h-24 mx-auto">
-              <AvatarImage src="/profile-photo.png" alt="Hasan Islam" />
+              <AvatarImage
+                src="https://trickbd.com/wp-content/uploads/2025/08/03/cropped-ssstik.io_1754157026441-300x300.jpeg"
+                alt="Hasan Islam"
+              />
               <AvatarFallback className="text-2xl font-display font-bold bg-primary text-primary-foreground">
                 H
               </AvatarFallback>
