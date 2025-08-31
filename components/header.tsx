@@ -30,7 +30,10 @@ export function Header({ onMenuClick, onProfileClick, onNavigate }: HeaderProps)
               className="flex items-center space-x-2 px-3 hover-lift"
             >
               <Avatar className="w-6 h-6">
-                <AvatarImage src="/profile-photo.png" alt="Profile" />
+                <AvatarImage
+                  src="https://trickbd.com/wp-content/uploads/2025/08/03/cropped-ssstik.io_1754157026441-300x300.jpeg"
+                  alt="Profile"
+                />
                 <AvatarFallback className="text-xs">H</AvatarFallback>
               </Avatar>
               <span className="text-sm font-medium">Profile</span>
@@ -86,7 +89,10 @@ export function Header({ onMenuClick, onProfileClick, onNavigate }: HeaderProps)
 
               <Button variant="ghost" onClick={onProfileClick} className="flex items-center space-x-2 px-4 hover-lift">
                 <Avatar className="w-8 h-8">
-                  <AvatarImage src="/profile-photo.png" alt="Profile" />
+                  <AvatarImage
+                    src="https://trickbd.com/wp-content/uploads/2025/08/03/cropped-ssstik.io_1754157026441-300x300.jpeg"
+                    alt="Profile"
+                  />
                   <AvatarFallback>H</AvatarFallback>
                 </Avatar>
                 <span className="font-medium">Profile</span>
